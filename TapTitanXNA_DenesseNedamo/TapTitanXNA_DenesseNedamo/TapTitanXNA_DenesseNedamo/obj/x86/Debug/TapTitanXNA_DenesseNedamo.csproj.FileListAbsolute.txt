@@ -1,0 +1,17 @@
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\TapTitanXNA_DenesseNedamo.exe
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\TapTitanXNA_DenesseNedamo.pdb
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\TapTitanXNA_DenesseNedamo.csprojResolveAssemblyReference.cache
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\TapTitanXNA_DenesseNedamo.exe
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\TapTitanXNA_DenesseNedamo.pdb
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\ramona.xnb
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\BG\bg.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\Idle.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\Run.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\RunScott.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\IdleKim.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\buttonGo.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\atkbutton.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\button.xnb
+C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\REALRunScott.xnb

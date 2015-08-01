@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sprite\ramona.png</Source>
+      <Name>Sprite\ramona</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\ramona.xnb</Output>
+      <Time>2015-06-20T09:46:36.4152595+08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG\bg.png</Source>
+      <Name>BG\bg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\BG\bg.xnb</Output>
+      <Time>2015-06-20T09:47:45.7054329+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\Idle.png</Source>
+      <Name>Sprite\Idle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\Idle.xnb</Output>
+      <Time>2015-07-04T09:42:52.4902326+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\Run.png</Source>
+      <Name>Sprite\Run</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\Run.xnb</Output>
+      <Time>2015-07-04T10:57:05.6289344+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\RunScott.png</Source>
+      <Name>Sprite\RunScott</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\RunScott.xnb</Output>
+      <Time>2015-07-11T08:45:35.4436562+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\IdleKim.png</Source>
+      <Name>Sprite\IdleKim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\IdleKim.xnb</Output>
+      <Time>2015-07-11T10:12:43.871923+08:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2015-08-01T08:51:10.1261788+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\buttonGo.png</Source>
+      <Name>Sprite\buttonGo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\buttonGo.xnb</Output>
+      <Time>2015-07-18T09:15:25.3397886+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\atkbutton.png</Source>
+      <Name>Sprite\atkbutton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\atkbutton.xnb</Output>
+      <Time>2015-07-18T09:24:36.028852+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\button.png</Source>
+      <Name>Sprite\button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\button.xnb</Output>
+      <Time>2015-07-18T09:24:29.6022094+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprite\REALRunScott.png</Source>
+      <Name>Sprite\REALRunScott</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\REALRunScott.xnb</Output>
+      <Time>2015-07-25T08:43:33.2630695+08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamoContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamoContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-23T11:53:57.1558968+08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
