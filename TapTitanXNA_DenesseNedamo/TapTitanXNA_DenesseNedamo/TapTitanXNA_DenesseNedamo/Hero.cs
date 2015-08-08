@@ -11,24 +11,29 @@ namespace TapTitanXNA_DenesseNedamo
 {
     public class Hero
     {
-        Vector2 playerPosition;
+        public Vector2 playerPosition;
 
         Texture2D idle;
         Texture2D run;
+        //Texture2D enemy;
 
         ContentManager content;
         public static float windowWidth = 400;
         public static float windowHeight = 500;
         Level level;
+        float posX;
         float posY;
+        int counter = 0;
 
         Animation idleAnimation;
         Animation ramonaRun;
         Animation scottRun;
         Animation kimIdle;
+        Animation slime;
         AnimationPlayer spritePlayer;
+        
 
-        int characterChooser;
+        public int characterChooser;
         //int winner = 0;
 
         public bool isWinner = false;
@@ -47,6 +52,7 @@ namespace TapTitanXNA_DenesseNedamo
                 idle = content.Load<Texture2D>("Sprite/Idle");
                 run = content.Load<Texture2D>("Sprite/Run");
                 ramonaRun = new Animation(run, 0.1f, true, 8);
+                posX = 10.0f;
                 posY = 3.0f;
 
             }
@@ -55,22 +61,38 @@ namespace TapTitanXNA_DenesseNedamo
                 idle = content.Load<Texture2D>("Sprite/RunScott");
                 run = content.Load<Texture2D>("Sprite/REALRunScott");
                 scottRun = new Animation(run, 0.1f, true, 8);
+                posX = 10.0f;
                 posY = 2.0f;
             }
-            else
+            else if (characterChooser == 3)
             {
                 idle = content.Load<Texture2D>("Sprite/IdleKim");
                 kimIdle = new Animation(idle, 0.1f, true, 6);
+                posX = 10.0f;
                 posY = 4.0f;
             }
+            else if (characterChooser == 0)
+            {
+                idle = content.Load<Texture2D>("Sprite/slime");
+                slime = new Animation(idle, 0.1f, true, 2);
+                posX = 0.5f;
+                posY = 2.5f;
+            }
 
-            idleAnimation = new Animation(idle, 0.1f, true, 7);
+            if (characterChooser == 0)
+            {
+                idleAnimation = new Animation(idle, 0.3f, true, 2);
+            } else {
+                idleAnimation = new Animation(idle, 0.1f, true, 7);
+            }
 
-            float positionX = (windowWidth / 5.0f ) - (idle.Width / 10.0f );
-            float positionY = (windowHeight / posY) - (idle.Height / posY);
+
+            float positionX = (windowWidth / posX) - (idleAnimation.FrameWidth / posX);
+            float positionY = (windowHeight / posY) - (idleAnimation.FrameHeight / posY);
             playerPosition = new Vector2((float)positionX, (float)positionY);
 
             spritePlayer.PlayAnimation(idleAnimation);
+            
         }
 
         public void Update(GameTime gameTime)
@@ -84,21 +106,42 @@ namespace TapTitanXNA_DenesseNedamo
                     playerPosition.X += 10;
                     spritePlayer.PlayAnimation(ramonaRun);
                 }
+                else if (level.mouseState.MiddleButton == ButtonState.Pressed && playerPosition.X <= windowWidth + 330)
+                {
+                    do
+                    {
+                        playerPosition.Y += 5;
+                    }
+                    else if (playerPosition.Y >= 5.0f )
+                    {
+                        do
+                        {
+                            playerPosition.Y -= 0.5f;
+                        }
+                        while (playerPosition.Y > 3.0f);
+
+                }
             }
             else if (characterChooser == 2)
             {
-                if (level.keyState.IsKeyDown(Keys.Right) && level.keyState.IsKeyDown(Keys.Left) && playerPosition.X <= windowWidth + 330)
+                if (level.keyState.IsKeyDown(Keys.Q) && level.keyState.IsKeyDown(Keys.Left) && playerPosition.X <= windowWidth + 330)
                 {
                     playerPosition.X += 10;
                     spritePlayer.PlayAnimation(scottRun);
                 }
-            } 
+            }
+            else if (characterChooser == 0)
+            {
+                    playerPosition.X -= 0.5f;
+            }
 
             if (playerPosition.X >= windowWidth + 300)
             {
                 isWinner = true;
                 spritePlayer.PlayAnimation(idleAnimation);
             }
+
+          
 
             //} while (isWinner == false);
 

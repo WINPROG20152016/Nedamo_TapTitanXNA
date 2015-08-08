@@ -32,10 +32,12 @@ namespace TapTitanXNA_DenesseNedamo
         Hero hero;
         Hero support1;
         Hero support2;
+        Hero enemy1;
 
         //SpriteFont damageStringfont;
         SpriteFont winnerStringfont;
         SpriteFont instructionsStringfont;
+        SpriteFont ramonaLife, scottLife;
         string winner;
 
         //int damageNumber = 0;
@@ -56,6 +58,7 @@ namespace TapTitanXNA_DenesseNedamo
             hero        = new Hero(content, this, 1);
             support1    = new Hero(content, this, 2);
             support2    = new Hero(content, this, 3);
+            enemy1 = new Hero(content, this, 0);
             
             //heroes.Add(hero);
         }
@@ -67,6 +70,8 @@ namespace TapTitanXNA_DenesseNedamo
             //damageStringfont = content.Load<SpriteFont>("SpriteFont1");
             instructionsStringfont = content.Load<SpriteFont>("SpriteFont1");
             winnerStringfont = content.Load<SpriteFont>("SpriteFont1");
+            ramonaLife = content.Load<SpriteFont>("SpriteFont2");
+            scottLife = content.Load<SpriteFont>("SpriteFont2");
             //playButton = new Button(content, "Sprite/buttonGo", Vector2.Zero);
             //atkButton = new Button(content, "Sprite/atkButton", new Vector2(100,150));
 
@@ -75,6 +80,7 @@ namespace TapTitanXNA_DenesseNedamo
                 hero.LoadContent();
                 support1.LoadContent();
                 support2.LoadContent();
+                enemy1.LoadContent();
             //}
         }
 
@@ -93,6 +99,7 @@ namespace TapTitanXNA_DenesseNedamo
             hero.Update(gameTime);
             support1.Update(gameTime);
             support2.Update(gameTime);
+            enemy1.Update(gameTime);
 
             oldMouseState = mouseState;
             oldKeyState = keyState;
@@ -124,6 +131,9 @@ namespace TapTitanXNA_DenesseNedamo
             support2.Draw(gameTime, spriteBatch);
             hero.Draw(gameTime, spriteBatch);
             support1.Draw(gameTime, spriteBatch);
+            enemy1.Draw(gameTime, spriteBatch);
+
+            
 
             //spriteBatch.DrawString(damageStringfont, damageNumber + " Damage!", Vector2.Zero, Color.White);
             spriteBatch.DrawString(instructionsStringfont, "       Alternate mouse buttons to control Ramona and the left & right keypad to control Scott!", Vector2.Zero, Color.White);
@@ -131,6 +141,18 @@ namespace TapTitanXNA_DenesseNedamo
             {
                 spriteBatch.DrawString(winnerStringfont, winner + " wins!", new Vector2(340, 250), Color.White);
             }
+
+            if (hero.characterChooser == 1)
+            {
+                spriteBatch.DrawString(ramonaLife, "HP: ", new Vector2(hero.playerPosition.X + 10, hero.playerPosition.Y - 5), Color.White);
+            }
+
+            if (support1.characterChooser == 2)
+            {
+                spriteBatch.DrawString(scottLife, "HP: ", new Vector2(support1.playerPosition.X + 10, support1.playerPosition.Y - 5), Color.White);
+            }
+
+            
             
             //atkButton.Draw(gameTime, spriteBatch);
             
