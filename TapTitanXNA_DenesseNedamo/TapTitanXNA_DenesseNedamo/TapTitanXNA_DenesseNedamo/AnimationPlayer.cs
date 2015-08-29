@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace TapTitanXNA_DenesseNedamo
 {
-    struct AnimationPlayer
+    public struct AnimationPlayer
     {
         public Animation Animation
         {

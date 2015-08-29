@@ -1,1 +1,2 @@
 c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamoContent\obj\x86\Debug\TapTitanXNA_DenesseNedamoContent.contentprojResolveAssemblyReference.cache
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamoContent\obj\x86\Debug\TapTitanXNA_DenesseNedamoContent.contentprojResolveAssemblyReference.cache

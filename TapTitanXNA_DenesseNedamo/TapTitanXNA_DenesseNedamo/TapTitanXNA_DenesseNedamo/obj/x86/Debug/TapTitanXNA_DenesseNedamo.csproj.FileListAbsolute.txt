@@ -17,3 +17,21 @@ C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedam
 C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\REALRunScott.xnb
 C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\SpriteFont2.xnb
 C:\Users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\slime.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\ramona.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\BG\bg.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\Idle.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\Run.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\RunScott.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\IdleKim.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\buttonGo.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\atkbutton.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\button.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\REALRunScott.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\Sprite\slime.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\TapTitanXNA_DenesseNedamo.exe
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\bin\x86\Debug\TapTitanXNA_DenesseNedamo.pdb
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\TapTitanXNA_DenesseNedamo.exe
+C:\Users\istudent\Music\NED\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\TapTitanXNA_DenesseNedamo\obj\x86\Debug\TapTitanXNA_DenesseNedamo.pdb

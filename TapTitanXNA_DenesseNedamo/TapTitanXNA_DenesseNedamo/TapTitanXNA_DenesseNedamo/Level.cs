@@ -13,6 +13,7 @@ namespace TapTitanXNA_DenesseNedamo
     {
         public static int windowWidth = 800;
         public static int windowHeight = 285;
+        public int HP = 100;
 
         #region Properties
         ContentManager content;
@@ -29,10 +30,10 @@ namespace TapTitanXNA_DenesseNedamo
 
         int mouseX, mouseY;
 
-        Hero hero;
+        public Hero hero;
         Hero support1;
         Hero support2;
-        Hero enemy1;
+        public Hero enemy1;
 
         //SpriteFont damageStringfont;
         SpriteFont winnerStringfont;
@@ -58,7 +59,7 @@ namespace TapTitanXNA_DenesseNedamo
             hero        = new Hero(content, this, 1);
             support1    = new Hero(content, this, 2);
             support2    = new Hero(content, this, 3);
-            enemy1 = new Hero(content, this, 0);
+            enemy1      = new Hero(content, this, 0);
             
             //heroes.Add(hero);
         }
@@ -122,6 +123,11 @@ namespace TapTitanXNA_DenesseNedamo
                 isFirstWinner = true;
             }
 
+
+            if (hero.textureRec.Intersects(enemy1.textureRec))
+            {
+                HP -= 1;
+            }
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -144,12 +150,12 @@ namespace TapTitanXNA_DenesseNedamo
 
             if (hero.characterChooser == 1)
             {
-                spriteBatch.DrawString(ramonaLife, "HP: ", new Vector2(hero.playerPosition.X + 10, hero.playerPosition.Y - 5), Color.White);
+                spriteBatch.DrawString(ramonaLife, "HP: " + HP, new Vector2(hero.playerPosition.X + 10, hero.playerPosition.Y - 5), Color.White);
             }
 
             if (support1.characterChooser == 2)
             {
-                spriteBatch.DrawString(scottLife, "HP: ", new Vector2(support1.playerPosition.X + 10, support1.playerPosition.Y - 5), Color.White);
+                spriteBatch.DrawString(scottLife, "HP: " + HP, new Vector2(support1.playerPosition.X + 10, support1.playerPosition.Y - 5), Color.White);
             }
 
             

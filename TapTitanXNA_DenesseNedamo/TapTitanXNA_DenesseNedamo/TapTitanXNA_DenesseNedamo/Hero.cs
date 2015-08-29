@@ -23,16 +23,16 @@ namespace TapTitanXNA_DenesseNedamo
         Level level;
         float posX;
         float posY;
-        int counter = 0;
+        //int counter = 0;
 
         Animation idleAnimation;
         Animation ramonaRun;
         Animation scottRun;
         Animation kimIdle;
         Animation slime;
-        AnimationPlayer spritePlayer;
+        public AnimationPlayer spritePlayer;
+        public Rectangle textureRec;
         
-
         public int characterChooser;
         //int winner = 0;
 
@@ -92,6 +92,7 @@ namespace TapTitanXNA_DenesseNedamo
             playerPosition = new Vector2((float)positionX, (float)positionY);
 
             spritePlayer.PlayAnimation(idleAnimation);
+            textureRec = new Rectangle((int)positionX, (int)positionY, idleAnimation.FrameWidth, idleAnimation.FrameHeight);
             
         }
 
@@ -106,25 +107,10 @@ namespace TapTitanXNA_DenesseNedamo
                     playerPosition.X += 10;
                     spritePlayer.PlayAnimation(ramonaRun);
                 }
-                else if (level.mouseState.MiddleButton == ButtonState.Pressed && playerPosition.X <= windowWidth + 330)
-                {
-                    do
-                    {
-                        playerPosition.Y += 5;
-                    }
-                    else if (playerPosition.Y >= 5.0f )
-                    {
-                        do
-                        {
-                            playerPosition.Y -= 0.5f;
-                        }
-                        while (playerPosition.Y > 3.0f);
-
-                }
             }
             else if (characterChooser == 2)
             {
-                if (level.keyState.IsKeyDown(Keys.Q) && level.keyState.IsKeyDown(Keys.Left) && playerPosition.X <= windowWidth + 330)
+                if (level.keyState.IsKeyDown(Keys.Right) && level.keyState.IsKeyDown(Keys.Left) && playerPosition.X <= windowWidth + 330)
                 {
                     playerPosition.X += 10;
                     spritePlayer.PlayAnimation(scottRun);
@@ -141,10 +127,8 @@ namespace TapTitanXNA_DenesseNedamo
                 spritePlayer.PlayAnimation(idleAnimation);
             }
 
-          
-
             //} while (isWinner == false);
-
+            textureRec.X = (int)playerPosition.X;
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
